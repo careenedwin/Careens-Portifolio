@@ -1,6 +1,6 @@
 
 
-/* ---------- Theme toggle ---------- */
+/*  Theme toggle */
 const themeBtn = document.getElementById('themeToggle');
 
 function applyTheme(theme) {
@@ -23,7 +23,7 @@ themeBtn.addEventListener('click', () => {
   applyTheme(next);
 });
 
-/* ---------- 2. Mobile menu ---------- */
+/*  Mobile menu  */
 const menuBtn = document.getElementById('menuBtn');
 const navLinks = document.getElementById('navLinks');
 
@@ -35,7 +35,7 @@ navLinks.querySelectorAll('a').forEach((link) => {
   link.addEventListener('click', () => navLinks.classList.remove('open'));
 });
 
-/* ---------- 3. Project data & rendering ---------- */
+/*  Project data & rendering  */
 const projects = [
   { title: 'Memory Forensics Toolkit', category: 'forensics', label: 'Digital Forensics', icon: '🧠',
     desc: 'A guided workflow for acquiring and analysing RAM images with Volatility, extracting processes, network connections and injected code.', tags: ['Volatility', 'Python', 'DFIR'] },
@@ -73,7 +73,7 @@ function renderProjects(list) {
 
 renderProjects(projects);
 
-/* ---------- 4. Project filters ---------- */
+/*  4. Project filters  */
 document.querySelectorAll('.filter').forEach((btn) => {
   btn.addEventListener('click', () => {
     document.querySelectorAll('.filter').forEach((b) => b.classList.remove('active'));
@@ -85,7 +85,7 @@ document.querySelectorAll('.filter').forEach((btn) => {
   });
 });
 
-/* ---------- 5. Contact form validation ---------- */
+/*   Contact form validation */
 const form = document.getElementById('contactForm');
 const note = document.getElementById('formNote');
 
@@ -142,7 +142,7 @@ form.addEventListener('submit', (e) => {
   form.reset();
 });
 
-/* ---------- 6. Photo fallback ---------- */
+/*  6. Photo fallback  */
 const photo = document.getElementById('profilePhoto');
 const placeholder = document.getElementById('photoPlaceholder');
 

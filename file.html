@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Careen Edwin | Cybersecurity & Digital Forensics</title>
+  <link rel="stylesheet" href="style1.css" />
+</head>
+<body>
+
+  <!--  NAVBAR  -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">Careen Edwin</a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="theme-btn" id="themeToggle">🌙</button>
+      <button class="menu-btn" id="menuBtn">☰</button>
+    </div>
+  </header>
+
+  <main>
+
+    <!--  HERO  -->
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div>
+          <p class="eyebrow">Available for internships & collaboration</p>
+          <h1>Hi, I'm <span class="accent">Careen Edwin</span></h1>
+          <h2 class="role">Cybersecurity & Digital Forensics Student</h2>
+          <p class="desc">
+            I'm a BSc. Cybersecurity and Digital Forensics Engineering student who is
+            genuinely fascinated by how systems break, and how to make them hold. I spend my time
+            on threat analysis, digital evidence, and building things that are secure by default.
+          </p>
+
+          <div class="cta">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+          </div>
+
+          <div class="socials">
+            <a href="https://github.com/st43" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/in/careenedwin" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="mailto:careenedwin3@gmail.com">Email</a>
+          </div>
+        </div>
+
+        <div class="photo-wrap">
+          <img src="assets/img/careen.jpg" alt="Portrait of Careen Edwin" class="photo" id="profilePhoto" />
+          <div class="photo-placeholder" id="photoPlaceholder" hidden>CE</div>
+        </div>
+      </div>
+    </section>
+
+    <!--  ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title">01. About Me</h2>
+
+        <div class="about-grid">
+          <div>
+            <p>
+              I'm <strong>Careen Edwin</strong>, an undergraduate engineer studying
+              <strong>Cybersecurity and Digital Forensics</strong>. My interest started with a simple
+              question how does someone actually get in? and grew into a serious focus on
+              defending systems and reconstructing what happened after an incident.
+            </p>
+            <p>
+              I work across the defensive side of security: analysing traffic, hardening
+              configurations, hunting through logs, and recovering digital evidence in a way that
+              stays forensically sound. I also write code, mostly Python and JavaScript.
+            </p>
+            <ul class="facts">
+              <li>Focus: Blue team, DFIR & secure development</li>
+              <li>Currently: Deepening network forensics & malware analysis</li>
+              <li>Mindset: Curious, methodical, evidence-driven</li>
+            </ul>
+          </div>
+
+          <div class="stats">
+            <div class="stat-card"><span class="stat-num">15+</span><span>CTF Challenges Solved</span></div>
+            <div class="stat-card"><span class="stat-num">8+</span><span>Security Projects</span></div>
+            <div class="stat-card"><span class="stat-num">12+</span><span>Tools Mastered</span></div>
+            <div class="stat-card"><span class="stat-num">4+</span><span>Years of Study</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  SKILLS -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <h2 class="section-title">02. Skills & Toolkit</h2>
+
+        <div class="cards-grid">
+          <div class="card">
+            <h3>🛡️ Defensive Security</h3>
+            <p>Monitoring, hardening and incident response.</p>
+            <div class="tags"><span>SIEM</span><span>Log Analysis</span><span>Firewalls</span><span>IDS/IPS</span></div>
+          </div>
+          <div class="card">
+            <h3>🔍 Digital Forensics</h3>
+            <p>Acquiring and analysing evidence without compromising its integrity.</p>
+            <div class="tags"><span>Autopsy</span><span>FTK Imager</span><span>Volatility</span></div>
+          </div>
+          <div class="card">
+            <h3>🌐 Network Security</h3>
+            <p>Reading packets to understand exactly what crossed the wire.</p>
+            <div class="tags"><span>Wireshark</span><span>Nmap</span><span>TCP/IP</span></div>
+          </div>
+          <div class="card">
+            <h3>💻 Programming</h3>
+            <p>Scripting and building: automation, tooling and secure web apps.</p>
+            <div class="tags"><span>Python</span><span>JavaScript</span><span>Bash</span><span>SQL</span></div>
+          </div>
+          <div class="card">
+            <h3>🐧 Systems & Platforms</h3>
+            <p>Comfortable across the operating systems security work lives on.</p>
+            <div class="tags"><span>Kali Linux</span><span>Ubuntu</span><span>Docker</span></div>
+          </div>
+          <div class="card">
+            <h3>🔐 Cryptography</h3>
+            <p>Applying the maths that keeps data confidential and verifiable.</p>
+            <div class="tags"><span>AES/RSA</span><span>Hashing</span><span>PKI</span><span>TLS</span></div>
+          </div>
+        </div>
+
+        <div class="bars">
+          <h3>Proficiency</h3>
+          <div class="bar-row"><span>Network & Traffic Analysis</span><div class="bar"><div style="width:85%"></div></div></div>
+          <div class="bar-row"><span>Digital Forensics</span><div class="bar"><div style="width:80%"></div></div></div>
+          <div class="bar-row"><span>Python Scripting</span><div class="bar"><div style="width:78%"></div></div></div>
+          <div class="bar-row"><span>Linux Administration</span><div class="bar"><div style="width:75%"></div></div></div>
+          <div class="bar-row"><span>Web Application Security</span><div class="bar"><div style="width:70%"></div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS  -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title">03. Projects</h2>
+
+        <div class="filters" id="filters">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="forensics">Forensics</button>
+          <button class="filter" data-filter="network">Network</button>
+          <button class="filter" data-filter="web">Web Security</button>
+          <button class="filter" data-filter="tools">Tools</button>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid"></div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section section-alt" id="education">
+      <div class="container">
+        <h2 class="section-title">04. Education & Journey</h2>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="date">Present</span>
+            <h3>BSc. Cybersecurity and Digital Forensics Engineering</h3>
+            <p>Undergraduate degree covering network security, cryptography, digital evidence handling, incident response, secure software engineering and computer forensics.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="date">Ongoing</span>
+            <h3>Hands-on Labs & CTFs</h3>
+            <p>Regular practice on TryHackMe, Hack The Box and self-hosted labs.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="date">In Progress</span>
+            <h3>Certification Track</h3>
+            <p>Working toward foundational industry certifications in security operations and forensics.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="date">Next</span>
+            <h3>Internship & Research</h3>
+            <p>Looking for a security operations or digital forensics internship.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--CONTACT -->
+    <section class="section" id="contact">
+      <div class="container">
+        <h2 class="section-title">05. Get In Touch</h2>
+
+        <div class="contact-grid">
+          <div>
+            <h3>Let's build something secure.</h3>
+            <p>Whether it's an internship, a study group, a CTF team or just a question about forensics: my inbox is open.</p>
+            <ul class="contact-list">
+              <li><strong>Email:</strong> <a href="mailto:careenedwin3@gmail.com">careenedwin3@gmail.com</a></li>
+              <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/careenedwin" target="_blank" rel="noopener">linkedin.com/in/careenedwin</a></li>
+              <li><strong>GitHub:</strong> <a href="https://github.com/st43" target="_blank" rel="noopener">github.com/st43</a></li>
+            </ul>
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your name" required />
+            <small class="error" data-error-for="name"></small>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="you@example.com" required />
+            <small class="error" data-error-for="email"></small>
+
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="What's on your mind?" required></textarea>
+            <small class="error" data-error-for="message"></small>
+
+            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+            <p class="form-note" id="formNote"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Careen Edwin. Built with HTML, CSS & JavaScript.</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="main1.js"></script>
+</body>
+</html>

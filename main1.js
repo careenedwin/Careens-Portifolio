@@ -1,10 +1,6 @@
-/* ============================================================
-   Careen Edwin: Portfolio Scripts (simple version)
-   1. Theme toggle  2. Mobile menu  3. Project data & rendering
-   4. Project filters  5. Contact form  6. Photo fallback  7. Footer year
-   ============================================================ */
 
-/* ---------- 1. Theme toggle ---------- */
+
+/* ---------- Theme toggle ---------- */
 const themeBtn = document.getElementById('themeToggle');
 
 function applyTheme(theme) {
